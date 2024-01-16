@@ -8,7 +8,7 @@
 body {
   color: #ededed;
   
-  background:#12122e;
+  background:#0e1029;
 }
 
 .header {
@@ -17,11 +17,12 @@ body {
   left: 0;
   width: 100%;
   padding: 20px 10%;
-  background: #051129;
+  background: rgb(7, 85, 91);
   display: flex;
   justify-content: space-between;
   align-items: center;
   z-index: 100;
+  
 }
 
 .logo {
@@ -334,7 +335,7 @@ section{
   width:70%;
 }
 .progress-line.javascript span{
-  width:50%;
+  width:70%;
 }
 .progress-line.java span{
   width:80%;
@@ -343,7 +344,7 @@ section{
   width:90%;
 }
 .progress-line.bootstrap span{
-  width:60%;
+  width:70%;
 }
 .progress-line.spring span{
   width:73%;
@@ -370,7 +371,7 @@ section{
   content: "70%";
 }
 .progress-line.javascript span::after{
-  content: "50%";
+  content: "70%";
 }
 .progress-line.java span::after{
   content: "80%";
@@ -379,7 +380,7 @@ section{
   content: "90%";
 }
 .progress-line.bootstrap span::after{
-  content: "60%";
+  content: "70%";
 }
 .progress-line.spring span::after{
   content: "73%";
